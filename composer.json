@@ -99,7 +99,8 @@
         "sonata-project/seo-bundle": "^2.1",
         "symfony/monolog-bundle": "If you want to log exceptions produced when dealing with images.",
         "tilleuls/ckeditor-sonata-media-bundle": "^1.0",
-        "twig/extra-bundle": "Auto configures the Twig Intl extension"
+        "twig/extra-bundle": "Auto configures the Twig Intl extension",
+        "aws/aws-sdk-php": "To support storing media in Amazon S3 buckets."
     },
     "config": {
         "sort-packages": true
