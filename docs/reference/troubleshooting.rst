@@ -4,13 +4,15 @@ Troubleshooting
 Media Formats
 -------------
 
-You can define formats per provider type, there is something important that you should bear in mind, the quality for each format type should get a numeric value no higher than 100, this is the maximun value you should set. Do not confuse the value belonging to the format quality by the format height.
+You can define formats per provider type, there is something important that you should bear in mind, the quality for each format type should get a numeric value no higher than 100, this is the maximum value you should set. Do not confuse the value belonging to the format quality by the format height.
 
-#### Prevent this possible issue:
+Prevent this possible issue:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 > **imagepng(): gd-png error: compression level must be 0 through 9**
 
-#### Use case:
+Use case:
+~~~~~~~~~
 
 For example, let's suppose you got a format called hq, and you want to set 1920 as the width value in your format, then the quality should be 100 as maximun value. Don't make the mistake of setting 1080 in the quality value.
 
